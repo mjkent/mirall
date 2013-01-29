@@ -991,7 +991,6 @@ void Application::computeOverallSyncStatus()
 
 void Application::showHelp()
 {
-setHelp();
     std::cout << _theme->appName().toLatin1().constData() << " version " <<
                  _theme->version().toLatin1().constData() << std::endl << std::endl;
     std::cout << "File synchronisation desktop utility." << std::endl << std::endl;
